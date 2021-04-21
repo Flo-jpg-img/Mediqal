@@ -1,0 +1,383 @@
+.tel{
+    background-color: rgba(46, 167,171);
+}
+.doc:hover{
+    background-color: rgba(8, 73,121);
+}
+.doc{
+    background-color: rgb(19,97,157);
+}
+.bleu:hover{
+    color: rgba(46, 167,171)  !important;
+    background-color: rgb(245, 245, 245);
+}
+.bord{
+    border-right: 1px solid rgb(252, 248, 248);
+    
+}
+.marglogo{
+    margin-right: 25px;
+}
+.marglogoautre{
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.marglogoautrefin{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.backdrop{
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+#ombre{
+    box-shadow: inset 0px 14px 11px -10px rgb(70, 69, 69),
+    inset 0px -11px 8px -150px rgb(170, 168, 168); 
+    background-color: rgb(245, 245, 245);
+    position: absolute  !important;
+    left: -450px;
+    width: 1269px;
+    
+
+}
+.ombre{
+    box-shadow: inset 0px 14px 11px -10px rgb(70, 69, 69),
+    inset 0px -11px 8px -150px rgb(170, 168, 168); 
+    background-color: rgb(245, 245, 245);
+    position: absolute  !important;
+    left: 10px;
+    width: 1269px;
+    
+
+}
+ .hr{
+     
+     height: 2px  !important;
+     color:rgb(0, 0, 0) !important;
+     margin-left: 16px;
+     margin-top: 0;
+     
+ }
+ .titre{
+     margin-bottom: 0;
+ }
+
+.divd{
+    padding-left: 50px;
+    margin-right: 50px;
+}
+.hr2{
+     
+    height: 2px  !important;
+    color:rgb(0, 0, 0) !important;
+    margin-left: 16px;
+    margin-top: 0;
+    margin-right: 15px;
+    
+}
+#tele:hover{
+    background-color:rgb(32,128,135) ;
+}
+.carousel-caption
+{
+position: absolute;
+top:120px
+}
+.zind{
+    color: rgb(19,97,157);
+    
+    
+    
+}
+#principal{
+    color:rgb(46,167,176) !important ;
+    height: 5px;
+    width: 120px;
+   
+}
+.lorem{
+    
+  margin-top:  -180px;
+  
+  
+}
+.carrou{
+    z-index: 0;
+}
+#bch{
+    position: relative;
+    background-color: white;
+    z-index: 4;
+    width: 1267px;
+    padding: 0;
+}
+.laa1{
+    list-style: none;
+    color :rgb(46,167,176);
+}
+#avantage{
+    color: rgb(19,97,157)
+}
+#hr4{
+    color:rgb(46,167,176) !important ;
+    height: 5px;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.laa2{
+    list-style: none;
+    
+}
+.pointb{
+    color:rgb(46,167,176);
+}
+.carte1{
+    border: 1px solid rgb(46,167,176);
+    width: 360px;
+}
+
+.laa5{
+    display: none;
+}
+.carte1:hover .laa5{
+    display: inline;
+    background-color: rgb(46,167,176);
+
+}
+.carte1:hover .laa6{
+    display: none;
+    
+}
+
+.laa7{
+    display: none;
+}
+.carte1:hover .laa7{
+    display: inline;
+    background-color: rgb(46,167,176);
+    
+
+}
+.carte1:hover {
+    box-shadow: 5px  5px 5px rgb(99, 98, 98);
+}
+.carte1:hover .laa8{
+    display: none;
+    
+}
+
+.laa10{
+    display: none;
+}
+.carte1:hover .laa10{
+    display: inline;
+    background-color: rgb(46,167,176);
+
+}
+.carte1:hover .laa9{
+    display: none;
+    
+}
+
+.laa12{
+    display: none;
+}
+.carte1:hover .laa12{
+    display: inline;
+    background-color: rgb(46,167,176);
+
+}
+.carte1:hover .laa11{
+    display: none;
+    
+}
+
+.laa14{
+    display: none;
+}
+.carte1:hover .laa14{
+    display: inline;
+    background-color: rgb(46,167,176);
+
+}
+.carte1:hover .laa13{
+    display: none;
+    
+}
+
+.laa16{
+    display: none;
+}
+.carte1:hover .laa16{
+    display: inline;
+    background-color: rgb(46,167,176);
+
+}
+.carte1:hover .laa15{
+    display: none;
+    
+}
+.cartes{
+    
+    padding-top: 25px;
+    padding-bottom: 100px;
+    
+    
+}
+.sli{
+    background-image: url(images/fond_carrousel.png);
+    height: 470px;
+    
+   
+}
+#hr5{
+    color:rgb(46,167,176) !important ;
+    height: 5px;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+.fond-turquoise{
+    background-color: rgb(46,167,176);
+    width: 173.533px;
+}
+.slick_card .img_hover{
+    display: none;
+    position: absolute;
+    top: 70px;
+    
+    
+    
+}
+.slick_card:hover{
+    cursor: pointer;
+}
+.slick_card:hover .cardio{
+    opacity: 0.3 !important;
+}
+.slick_card:hover .img_hover{
+    display: inline  ;
+    z-index: 2;
+}
+
+
+.slick_card1 .img_hover1{
+    display: none;
+    position: absolute;
+    top: 70px;
+    
+    
+}
+.slick_card1:hover{
+    cursor: pointer;
+}
+.slick_card1:hover .cardio1{
+    opacity: 0.3 !important;
+}
+.slick_card1:hover .img_hover1{
+    display: inline  ;
+    z-index: 2;
+    
+}
+
+
+.slick_card2 .img_hover2{
+    display: none;
+    position: absolute;
+    top: 70px;
+    
+}
+.slick_card2:hover{
+    cursor: pointer;
+}
+.slick_card2:hover .cardio2{
+    opacity: 0.3 !important;
+}
+.slick_card2:hover .img_hover2{
+    display: inline  ;
+    
+}
+.foot{
+    background-image: url(images/Fondbasdepage_logo.png);
+}
+#hr6{
+    color:rgb(46,167,176) !important ;
+    height: 5px;
+    width:5%;
+    
+   
+}
+.fooot{
+    padding-top: 175px;
+}
+#hr7{
+    color:rgb(46,167,176) !important ;
+    height: 5px;
+    width:20%;
+    
+   
+}
+.text5{
+    text-decoration: none;
+}
+.lien:hover{
+color:rgb(46,167,176) !important;
+}
+.foot2{
+    background-color: rgb(16,25,31);
+}
+.boo{
+    border-color:rgb(46,167,176) ;
+}
+.boo1{
+    border-color:rgb(46,167,176) ;
+}
+.boo2{
+    border-color:rgb(46,167,176) ;
+}
+.cot{
+    border: none !important;
+}
+#hr8{
+    color:rgb(46,167,176) !important ;
+    height: 5px;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.boo:hover {
+    color: white  !important;
+    background-color:rgb(46,167,176) ;
+}
+.img11{
+    
+     box-shadow: 5px  5px 5px rgb(99, 98, 98);
+
+}
+.img22{
+    box-shadow: 5px  5px 5px rgb(99, 98, 98);
+}
+.img33{
+    box-shadow: 5px  5px 5px rgb(99, 98, 98);
+}
+.couleur{
+    color :rgb(46,167,176)  ;
+    
+}
+.boo1:hover {
+    color: white  !important;
+    background-color:rgb(46,167,176) ;
+}
+.boo2:hover {
+    color: white  !important;
+    background-color:rgb(46,167,176) ;
+}
