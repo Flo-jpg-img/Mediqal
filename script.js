@@ -18,7 +18,7 @@ $('.drop2 ').hover(function() {
   infinite: false,
   speed: 300,
   slidesToShow: 7,
-  slidesToScroll: 1,
+  slidesToScroll: 7,
   prevArrow: false,
     nextArrow: false
     });
