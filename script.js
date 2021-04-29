@@ -1,4 +1,4 @@
-console.log($('.nav-link '))
+/* DROPDOWN MENUE GESTION TEMPS D'APPARITION*/
 $('.drop ').hover(function() {
     $(this).find('.dropdown-menu').stop(true, true).delay().fadeIn(500);
   }, function() {
@@ -10,7 +10,7 @@ $('.drop2 ').hover(function() {
   }, function() {
     $(this).find('.dropdown-menu').stop(true, true).delay().fadeOut(500);
   });
-  
+  /* parametre slic*/
   $(document).ready(function(){
     $('.responsive').slick({
       
@@ -24,7 +24,7 @@ $('.drop2 ').hover(function() {
     });
       
   })
-
+/* hover des cartes affichage*/
  $('.boo').mouseover(function(){
    $('#titre_carte').addClass("couleur")
    $('.img1').addClass("img11")

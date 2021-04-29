@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-
+ <!-- DEBUT BODY-->
 <body>
   <div class="backdrop fixed-top" id="box">
     <div class="container d-flex justify-content-center   ">
@@ -25,12 +25,15 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
+             <!-- DROPDOWN PRESENTATION-->
             <ul class="navbar-nav">
-              <li class="nav-item  text-center  bord drop  ">
-                <a class="nav-link nav-link active dropdown-toggle marglogoautre " href="#" id="navbarDropdownMenuLink"
+              <li class="nav-item  text-center  bord drop  " >
+                <a class="nav-link nav-link active dropdown-toggle marglogoautre  "id="bgd"  href="#" id="navbarDropdownMenuLink"
                   role="button" data-bs-display="static" aria-expanded="false">
-                  <img src="images/logo-croix-basque.png" class="croix"><br>
+                  <br>
+                  
                   PRESENTATION
+                
                 </a>
                 <ul class=" dropdown-menu  dropdown-menu-left m-0  rounded-0 pt-4 border-0  ombre ">
                   <div class="d-flex">
@@ -137,9 +140,10 @@
                 </ul>
               </li>
               <li class="nav-item dropdown   bord drop2">
-                <a class="nav-link nav-link active dropdown-toggle text-center  marglogoautre " href="#"
+                <!-- DROPDOWN OFFRE DE SOINS-->
+                <a class="nav-link nav-link active dropdown-toggle text-center  marglogoautre " id="bgl" href="#"
                   id="navbarDropdownMenuLink" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="images/logo-stet.png" class="croix"><br>
+                 <br>
                   OFFRE DE SOINS
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start m-0  rounded-0 pt-4 border-0  " id="ombre"
@@ -249,20 +253,17 @@
                 </ul>
               </li>
               <li class="nav-item text-center text-uppercase bord">
-                <a class="nav-link nav-link active marglogoautre" href="#"><img
-                    src="images/logo-planchette.png"><br>ACTUALITés</a>
+                <a class="nav-link nav-link active marglogoautre" id="bgm"href="#"><br>ACTUALITés</a>
               </li>
               <li class="nav-item text-center text-uppercase">
-                <a class="nav-link nav-link active  marglogoautre " href="#"><img
-                    src="images/logo-mail.png"><br>CONTACT</a>
+                <a class="nav-link nav-link active  marglogoautre " id="bgc" href="#"><br>CONTACT</a>
               </li>
               <li class="nav-item text-center text-uppercase tel " id="tele">
-                <a class="nav-link  text-light  marglogoautrefin " href="#"><img src="images/logo-telephone.png"><br>05
+                <a class="nav-link  text-light  marglogoautrefin " id="bgt"  href="#"><br>05
                   59 01 16 60</a>
               </li>
               <li class="nav-item text-center text-uppercase doc ">
-                <a class="nav-link text-light p marglogoautrefin " href="#"><img class="pt-2"
-                    src="images/logo-medical.png" width="80"><br>rdv en ligne</a>
+                <a class="nav-link text-light p marglogoautrefin "id="bgdoc" href="#"><br>rdv en ligne</a>
               </li>
             </ul>
           </div>
@@ -270,6 +271,8 @@
       </nav>
     </div>
   </div>
+  <!-- FIN NAVBAR-->
+  <!-- CAROUSEL BOOSTRAP-->
   <div id="carouselExampleCaptions" class="carousel slide carrou" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -344,7 +347,7 @@
       </div>
       <div>
         <h2 class="text-uppercase text-center fw-bold pt-4" id="avantage">nos avantages</h2>
-
+<!-- DEBUT CARDS SOUPLESSE PRATIQUES EQUIPEMENTS DISPONNIBILITé CONVENTIONNé ANIMATIONS-->
         <hr id="hr4">
         <div class="d-flex justify-content-between pt-3">
           <div class="carte1 px-3">
@@ -452,6 +455,7 @@
       </div>
     </div>
   </div>
+  <!-- SLIC AVEC LES DIFFERENTES OFFRES DE SOINS-->
   <div class="sli ">
     <h3 class="text-center text-white text-uppercase pt-5">médiQal anglet: notre offre de soins</h3>
     <hr id="hr5">
@@ -642,13 +646,13 @@
   </div>
   <div>
     <h2 class="text-uppercase text-center fw-bold pt-5" id="avantage">nos dernières actualités</h2>
-
+<!-- DERNI7RE ACTUES-->
     <hr  id="hr8">
     <div  class="card-group container pb-5">
       <div class="card cot px-3 ">
         <img src="images/reu.png" class="card-img-top img1" alt="...">
         <div class="card-body">
-          <p class="text-secondary">15 aout 2019</p>
+          <p class="text-secondary text-uppercase">15 aout 2019</p>
           <hr>
           <h5 class=" fw-bold" id="titre_carte">Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum </h5>
           <p class="card-text">Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum officia repellat id ducimus Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum officia repellat id ducimus</p>
@@ -658,7 +662,7 @@
       <div class="card cot px-3">
         <img src="images/Actu2.png" class="card-img-top img2" alt="...">
         <div class="card-body">
-          <p class="text-secondary">15 aout 2019</p>
+          <p class="text-secondary text-uppercase"">6 aout 2019</p>
           <hr>
           <h5 class="card-title  fw-bold" id="titre_carte1">Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum </h5>
           <p class="card-text">Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum officia repellat id ducimus Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum officia repellat id ducimus</p>
@@ -668,7 +672,7 @@
       <div class="card cot px-3">
         <img src="images/Actu3.png" class="card-img-top img3" alt="...">
         <div class="card-body">
-          <p class="text-secondary">15 aout 2019</p>
+          <p class="text-secondary text-uppercase"">27 juillet 2019</p>
           <hr>
           <h5 class="card-title  fw-bold" id="titre_carte2">Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum </h5>
           <p class="card-text">Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum officia repellat id ducimus Lorem ipsum dolor sit amet. Rem alias ipsa aut consequatur tenetur cum officia repellat id ducimus</p>
@@ -677,10 +681,10 @@
       </div>
     </div>
   </div>
+  <!-- FOOTER-->
   <footer >
     <div class="foot pt-5">
     <div class=" d-flex justify-content-center ">
-     
         <div>
           <div class="pb-3">
             <h3 class="text-uppercase fw-bold fs-5 pointb">à propos</h3>

@@ -1,3 +1,4 @@
+/***********************************************DEBUT CSS NAVBAR**********************************/
 .tel{
     background-color: rgba(46, 167,171);
 }
@@ -14,6 +15,59 @@
 .bord{
     border-right: 1px solid rgb(252, 248, 248);
     
+}
+/*LOGO EN BG NAVBAR*/
+#bgd{
+    background-image: url('images/logo-croix-basque.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    margin-top: 12px;
+    
+    
+}
+#bgl{
+    background-image: url('images/logo-stet.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    margin-top: 12px;
+    
+    
+}
+#bgm{
+    background-image: url('images/logo-planchette.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    margin-top: 12px;
+    
+    
+}
+#bgc{
+    background-image: url('images/logo-mail.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    margin-top: 12px;
+    
+    
+}
+#bgt{
+    background-image: url('images/logo-telephone.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    margin-top: 12px;
+    
+    
+}
+#bgdoc{
+    background-image: url('images/logo-medical.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    margin-top: 12px;
+    
+    
+}
+/*CSS DROPDOWN OMBRE*/
+.dropdown-item:hover{
+    background-color:  rgb(207, 205, 205);
 }
 .marglogo{
     margin-right: 25px;
@@ -36,23 +90,25 @@
 #ombre{
     box-shadow: inset 0px 14px 11px -10px rgb(70, 69, 69),
     inset 0px -11px 8px -150px rgb(170, 168, 168); 
-    background-color: rgb(245, 245, 245);
+    background-color:  rgb(207, 205, 205);
     position: absolute  !important;
     left: -450px;
-    width: 1269px;
+    width: 1267px;
     
 
 }
 .ombre{
     box-shadow: inset 0px 14px 11px -10px rgb(70, 69, 69),
     inset 0px -11px 8px -150px rgb(170, 168, 168); 
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(207, 205, 205);
     position: absolute  !important;
     left: 10px;
-    width: 1269px;
+    width: 1267px;
+   
     
 
 }
+/*HR DE SEPARATION*/
  .hr{
      
      height: 2px  !important;
@@ -78,9 +134,14 @@
     margin-right: 15px;
     
 }
+#tele{
+    height: 80px;
+}
 #tele:hover{
     background-color:rgb(32,128,135) ;
 }
+/***********************************************FIN CSS NAVBAR**********************************/
+/*CSS CAROUSEL*/
 .carousel-caption
 {
 position: absolute;
@@ -88,8 +149,6 @@ top:120px
 }
 .zind{
     color: rgb(19,97,157);
-    
-    
     
 }
 #principal{
@@ -114,6 +173,7 @@ top:120px
     width: 1267px;
     padding: 0;
 }
+/*CSS CARDS  SOUPLESSE PRATIQUES EQUIPEMENTS DISPONNIBILITé CONVENTIONNé ANIMATIONS*/
 .laa1{
     list-style: none;
     color :rgb(46,167,176);
@@ -229,6 +289,7 @@ top:120px
     
     
 }
+/*CSS SLIC*/
 .sli{
     background-image: url(images/fond_carrousel.png);
     height: 470px;
@@ -307,6 +368,7 @@ top:120px
 }
 .foot{
     background-image: url(images/Fondbasdepage_logo.png);
+    background-position: center;
 }
 #hr6{
     color:rgb(46,167,176) !important ;
@@ -315,6 +377,7 @@ top:120px
     
    
 }
+/*CSS FOOTER*/
 .fooot{
     padding-top: 175px;
 }
@@ -373,6 +436,7 @@ color:rgb(46,167,176) !important;
     color :rgb(46,167,176)  ;
     
 }
+/*BOUTON HOVER*/
 .boo1:hover {
     color: white  !important;
     background-color:rgb(46,167,176) ;
